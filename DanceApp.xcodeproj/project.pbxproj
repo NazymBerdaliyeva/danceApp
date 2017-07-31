@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D6F1CE1F270FC800BCF97E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1CD1F270FC800BCF97E /* AppDelegate.swift */; };
+		04D6F1D01F270FC800BCF97E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1CF1F270FC800BCF97E /* ViewController.swift */; };
+		04D6F1D31F270FC800BCF97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1D11F270FC800BCF97E /* Main.storyboard */; };
+		04D6F1D61F270FC800BCF97E /* DanceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1D41F270FC800BCF97E /* DanceApp.xcdatamodeld */; };
+		04D6F1DB1F270FC800BCF97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1D91F270FC800BCF97E /* LaunchScreen.storyboard */; };
+		04D6F1E31F27100C00BCF97E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1E21F27100C00BCF97E /* GoogleService-Info.plist */; };
+		04D6F1E71F28582E00BCF97E /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1E61F28582E00BCF97E /* Slide.xib */; };
+		04D6F1E91F28586100BCF97E /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1E81F28586100BCF97E /* Slide.swift */; };
+		04D6F1EB1F285A5900BCF97E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1EA1F285A5900BCF97E /* StartViewController.swift */; };
+		04D6F1F41F28ABBD00BCF97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1F31F28ABBD00BCF97E /* Assets.xcassets */; };
+		04F02A361F29C04D008D0240 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F02A351F29C04D008D0240 /* SignInViewController.swift */; };
+		04FB105F1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB105E1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift */; };
+		04FB10671F2B20DF00C4DAE8 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB10661F2B20DF00C4DAE8 /* Food.swift */; };
+		04FB106B1F2B23A500C4DAE8 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB106A1F2B23A500C4DAE8 /* PeopleViewController.swift */; };
+		04FB106F1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB106E1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift */; };
+		338881D63FCC43BF45CAFCB6 /* Pods_DanceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52AB7934A507303FABFE8DC /* Pods_DanceApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04D6F1CA1F270FC800BCF97E /* DanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D6F1CD1F270FC800BCF97E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D6F1CF1F270FC800BCF97E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D6F1D21F270FC800BCF97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D6F1D51F270FC800BCF97E /* DanceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DanceApp.xcdatamodel; sourceTree = "<group>"; };
+		04D6F1DA1F270FC800BCF97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D6F1DC1F270FC800BCF97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D6F1E21F27100C00BCF97E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04D6F1E41F27241200BCF97E /* DanceApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DanceApp.entitlements; sourceTree = "<group>"; };
+		04D6F1E61F28582E00BCF97E /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		04D6F1E81F28586100BCF97E /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		04D6F1EA1F285A5900BCF97E /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		04D6F1F31F28ABBD00BCF97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F02A351F29C04D008D0240 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		04FB105E1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn2ViewController.swift; sourceTree = "<group>"; };
+		04FB10661F2B20DF00C4DAE8 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		04FB106A1F2B23A500C4DAE8 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		04FB106E1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		082F2C3F7BEDED6AE748C1A6 /* Pods-DanceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceApp/Pods-DanceApp.release.xcconfig"; sourceTree = "<group>"; };
+		D52AB7934A507303FABFE8DC /* Pods_DanceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E144F7369AED534657287F5D /* Pods-DanceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceApp/Pods-DanceApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D6F1C71F270FC800BCF97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338881D63FCC43BF45CAFCB6 /* Pods_DanceApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D6F1C11F270FC800BCF97E = {
+			isa = PBXGroup;
+			children = (
+				04FB105D1F2A127B00C4DAE8 /* Controller */,
+				04D6F1CC1F270FC800BCF97E /* DanceApp */,
+				04D6F1CB1F270FC800BCF97E /* Products */,
+				E2E95F44B8924D7465E10359 /* Pods */,
+				ED9C269003A2A406AF1934CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04D6F1CB1F270FC800BCF97E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D6F1CA1F270FC800BCF97E /* DanceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D6F1CC1F270FC800BCF97E /* DanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				04D6F1E51F28580700BCF97E /* View */,
+				04D6F1E41F27241200BCF97E /* DanceApp.entitlements */,
+				04D6F1CD1F270FC800BCF97E /* AppDelegate.swift */,
+				04D6F1D11F270FC800BCF97E /* Main.storyboard */,
+				04D6F1F31F28ABBD00BCF97E /* Assets.xcassets */,
+				04D6F1D91F270FC800BCF97E /* LaunchScreen.storyboard */,
+				04D6F1DC1F270FC800BCF97E /* Info.plist */,
+				04D6F1E21F27100C00BCF97E /* GoogleService-Info.plist */,
+				04D6F1D41F270FC800BCF97E /* DanceApp.xcdatamodeld */,
+			);
+			path = DanceApp;
+			sourceTree = "<group>";
+		};
+		04D6F1E51F28580700BCF97E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04D6F1E61F28582E00BCF97E /* Slide.xib */,
+				04D6F1E81F28586100BCF97E /* Slide.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04FB105D1F2A127B00C4DAE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04F02A351F29C04D008D0240 /* SignInViewController.swift */,
+				04D6F1CF1F270FC800BCF97E /* ViewController.swift */,
+				04FB105E1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift */,
+				04D6F1EA1F285A5900BCF97E /* StartViewController.swift */,
+				04FB10661F2B20DF00C4DAE8 /* Food.swift */,
+				04FB106A1F2B23A500C4DAE8 /* PeopleViewController.swift */,
+				04FB106E1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift */,
+			);
+			name = Controller;
+			path = DanceApp;
+			sourceTree = "<group>";
+		};
+		E2E95F44B8924D7465E10359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E144F7369AED534657287F5D /* Pods-DanceApp.debug.xcconfig */,
+				082F2C3F7BEDED6AE748C1A6 /* Pods-DanceApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED9C269003A2A406AF1934CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D52AB7934A507303FABFE8DC /* Pods_DanceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D6F1C91F270FC800BCF97E /* DanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D6F1DF1F270FC800BCF97E /* Build configuration list for PBXNativeTarget "DanceApp" */;
+			buildPhases = (
+				CC0CAE281B3DDF79D2E3D4EF /* [CP] Check Pods Manifest.lock */,
+				04D6F1C61F270FC800BCF97E /* Sources */,
+				04D6F1C71F270FC800BCF97E /* Frameworks */,
+				04D6F1C81F270FC800BCF97E /* Resources */,
+				2CDC3304C47738BCDBAD1D6A /* [CP] Embed Pods Frameworks */,
+				C2887989F8313922BAE78F87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanceApp;
+			productName = DanceApp;
+			productReference = 04D6F1CA1F270FC800BCF97E /* DanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D6F1C21F270FC800BCF97E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04D6F1C91F270FC800BCF97E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4QKU98VAAA;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 04D6F1C51F270FC800BCF97E /* Build configuration list for PBXProject "DanceApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D6F1C11F270FC800BCF97E;
+			productRefGroup = 04D6F1CB1F270FC800BCF97E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D6F1C91F270FC800BCF97E /* DanceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D6F1C81F270FC800BCF97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D6F1E71F28582E00BCF97E /* Slide.xib in Resources */,
+				04D6F1DB1F270FC800BCF97E /* LaunchScreen.storyboard in Resources */,
+				04D6F1E31F27100C00BCF97E /* GoogleService-Info.plist in Resources */,
+				04D6F1D31F270FC800BCF97E /* Main.storyboard in Resources */,
+				04D6F1F41F28ABBD00BCF97E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CDC3304C47738BCDBAD1D6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceApp/Pods-DanceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2887989F8313922BAE78F87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceApp/Pods-DanceApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0CAE281B3DDF79D2E3D4EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D6F1C61F270FC800BCF97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB105F1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift in Sources */,
+				04D6F1EB1F285A5900BCF97E /* StartViewController.swift in Sources */,
+				04FB106B1F2B23A500C4DAE8 /* PeopleViewController.swift in Sources */,
+				04FB106F1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift in Sources */,
+				04D6F1D01F270FC800BCF97E /* ViewController.swift in Sources */,
+				04F02A361F29C04D008D0240 /* SignInViewController.swift in Sources */,
+				04FB10671F2B20DF00C4DAE8 /* Food.swift in Sources */,
+				04D6F1CE1F270FC800BCF97E /* AppDelegate.swift in Sources */,
+				04D6F1D61F270FC800BCF97E /* DanceApp.xcdatamodeld in Sources */,
+				04D6F1E91F28586100BCF97E /* Slide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D6F1D11F270FC800BCF97E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D6F1D21F270FC800BCF97E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D6F1D91F270FC800BCF97E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D6F1DA1F270FC800BCF97E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D6F1DD1F270FC800BCF97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D6F1DE1F270FC800BCF97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D6F1E01F270FC800BCF97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E144F7369AED534657287F5D /* Pods-DanceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DanceApp/DanceApp.entitlements;
+				DEVELOPMENT_TEAM = 4QKU98VAAA;
+				INFOPLIST_FILE = DanceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NazymBerdaliyeva.DanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04D6F1E11F270FC800BCF97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082F2C3F7BEDED6AE748C1A6 /* Pods-DanceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DanceApp/DanceApp.entitlements;
+				DEVELOPMENT_TEAM = 4QKU98VAAA;
+				INFOPLIST_FILE = DanceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NazymBerdaliyeva.DanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D6F1C51F270FC800BCF97E /* Build configuration list for PBXProject "DanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D6F1DD1F270FC800BCF97E /* Debug */,
+				04D6F1DE1F270FC800BCF97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D6F1DF1F270FC800BCF97E /* Build configuration list for PBXNativeTarget "DanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D6F1E01F270FC800BCF97E /* Debug */,
+				04D6F1E11F270FC800BCF97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04D6F1D41F270FC800BCF97E /* DanceApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04D6F1D51F270FC800BCF97E /* DanceApp.xcdatamodel */,
+			);
+			currentVersion = 04D6F1D51F270FC800BCF97E /* DanceApp.xcdatamodel */;
+			path = DanceApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04D6F1C21F270FC800BCF97E /* Project object */;
+}
