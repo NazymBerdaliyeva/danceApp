@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AEDCE41F30C2FE003FA2AA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEDCE31F30C2FE003FA2AA /* User.swift */; };
+		04AEDD061F31D039003FA2AA /* KolodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEDD051F31D039003FA2AA /* KolodaViewController.swift */; };
 		04D6F1CE1F270FC800BCF97E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1CD1F270FC800BCF97E /* AppDelegate.swift */; };
-		04D6F1D01F270FC800BCF97E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1CF1F270FC800BCF97E /* ViewController.swift */; };
+		04D6F1D01F270FC800BCF97E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1CF1F270FC800BCF97E /* LogInViewController.swift */; };
 		04D6F1D31F270FC800BCF97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1D11F270FC800BCF97E /* Main.storyboard */; };
 		04D6F1D61F270FC800BCF97E /* DanceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1D41F270FC800BCF97E /* DanceApp.xcdatamodeld */; };
 		04D6F1DB1F270FC800BCF97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1D91F270FC800BCF97E /* LaunchScreen.storyboard */; };
@@ -16,19 +18,20 @@
 		04D6F1E71F28582E00BCF97E /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1E61F28582E00BCF97E /* Slide.xib */; };
 		04D6F1E91F28586100BCF97E /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1E81F28586100BCF97E /* Slide.swift */; };
 		04D6F1EB1F285A5900BCF97E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F1EA1F285A5900BCF97E /* StartViewController.swift */; };
-		04D6F1F41F28ABBD00BCF97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D6F1F31F28ABBD00BCF97E /* Assets.xcassets */; };
 		04F02A361F29C04D008D0240 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F02A351F29C04D008D0240 /* SignInViewController.swift */; };
 		04FB105F1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB105E1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift */; };
-		04FB10671F2B20DF00C4DAE8 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB10661F2B20DF00C4DAE8 /* Food.swift */; };
-		04FB106B1F2B23A500C4DAE8 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB106A1F2B23A500C4DAE8 /* PeopleViewController.swift */; };
-		04FB106F1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB106E1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift */; };
+		04FB10711F2EFF0900C4DAE8 /* UpoloadPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB10701F2EFF0900C4DAE8 /* UpoloadPicViewController.swift */; };
+		04FB10731F2F478900C4DAE8 /* ImageVideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB10721F2F478900C4DAE8 /* ImageVideoCollectionViewCell.swift */; };
+		04FB10751F30679D00C4DAE8 /* PasswordRecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB10741F30679D00C4DAE8 /* PasswordRecoverViewController.swift */; };
 		338881D63FCC43BF45CAFCB6 /* Pods_DanceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52AB7934A507303FABFE8DC /* Pods_DanceApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04AEDCE31F30C2FE003FA2AA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		04AEDD051F31D039003FA2AA /* KolodaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaViewController.swift; sourceTree = "<group>"; };
 		04D6F1CA1F270FC800BCF97E /* DanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D6F1CD1F270FC800BCF97E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04D6F1CF1F270FC800BCF97E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D6F1CF1F270FC800BCF97E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		04D6F1D21F270FC800BCF97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D6F1D51F270FC800BCF97E /* DanceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DanceApp.xcdatamodel; sourceTree = "<group>"; };
 		04D6F1DA1F270FC800BCF97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,12 +41,11 @@
 		04D6F1E61F28582E00BCF97E /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 		04D6F1E81F28586100BCF97E /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		04D6F1EA1F285A5900BCF97E /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		04D6F1F31F28ABBD00BCF97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F02A351F29C04D008D0240 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
 		04FB105E1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn2ViewController.swift; sourceTree = "<group>"; };
-		04FB10661F2B20DF00C4DAE8 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
-		04FB106A1F2B23A500C4DAE8 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
-		04FB106E1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		04FB10701F2EFF0900C4DAE8 /* UpoloadPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpoloadPicViewController.swift; sourceTree = "<group>"; };
+		04FB10721F2F478900C4DAE8 /* ImageVideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		04FB10741F30679D00C4DAE8 /* PasswordRecoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRecoverViewController.swift; sourceTree = "<group>"; };
 		082F2C3F7BEDED6AE748C1A6 /* Pods-DanceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceApp/Pods-DanceApp.release.xcconfig"; sourceTree = "<group>"; };
 		D52AB7934A507303FABFE8DC /* Pods_DanceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E144F7369AED534657287F5D /* Pods-DanceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceApp/Pods-DanceApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,9 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04AEDCE21F30C274003FA2AA /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
 		04D6F1C11F270FC800BCF97E = {
 			isa = PBXGroup;
 			children = (
+				04AEDCE21F30C274003FA2AA /* Modal */,
 				04FB105D1F2A127B00C4DAE8 /* Controller */,
 				04D6F1CC1F270FC800BCF97E /* DanceApp */,
 				04D6F1CB1F270FC800BCF97E /* Products */,
@@ -87,7 +97,6 @@
 				04D6F1E41F27241200BCF97E /* DanceApp.entitlements */,
 				04D6F1CD1F270FC800BCF97E /* AppDelegate.swift */,
 				04D6F1D11F270FC800BCF97E /* Main.storyboard */,
-				04D6F1F31F28ABBD00BCF97E /* Assets.xcassets */,
 				04D6F1D91F270FC800BCF97E /* LaunchScreen.storyboard */,
 				04D6F1DC1F270FC800BCF97E /* Info.plist */,
 				04D6F1E21F27100C00BCF97E /* GoogleService-Info.plist */,
@@ -108,13 +117,15 @@
 		04FB105D1F2A127B00C4DAE8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04AEDD051F31D039003FA2AA /* KolodaViewController.swift */,
+				04AEDCE31F30C2FE003FA2AA /* User.swift */,
 				04F02A351F29C04D008D0240 /* SignInViewController.swift */,
-				04D6F1CF1F270FC800BCF97E /* ViewController.swift */,
+				04D6F1CF1F270FC800BCF97E /* LogInViewController.swift */,
 				04FB105E1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift */,
 				04D6F1EA1F285A5900BCF97E /* StartViewController.swift */,
-				04FB10661F2B20DF00C4DAE8 /* Food.swift */,
-				04FB106A1F2B23A500C4DAE8 /* PeopleViewController.swift */,
-				04FB106E1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift */,
+				04FB10701F2EFF0900C4DAE8 /* UpoloadPicViewController.swift */,
+				04FB10721F2F478900C4DAE8 /* ImageVideoCollectionViewCell.swift */,
+				04FB10741F30679D00C4DAE8 /* PasswordRecoverViewController.swift */,
 			);
 			name = Controller;
 			path = DanceApp;
@@ -209,7 +220,6 @@
 				04D6F1DB1F270FC800BCF97E /* LaunchScreen.storyboard in Resources */,
 				04D6F1E31F27100C00BCF97E /* GoogleService-Info.plist in Resources */,
 				04D6F1D31F270FC800BCF97E /* Main.storyboard in Resources */,
-				04D6F1F41F28ABBD00BCF97E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,13 +280,15 @@
 			files = (
 				04FB105F1F2A1FCF00C4DAE8 /* SignIn2ViewController.swift in Sources */,
 				04D6F1EB1F285A5900BCF97E /* StartViewController.swift in Sources */,
-				04FB106B1F2B23A500C4DAE8 /* PeopleViewController.swift in Sources */,
-				04FB106F1F2B250E00C4DAE8 /* ImageLabelCollectionViewCell.swift in Sources */,
-				04D6F1D01F270FC800BCF97E /* ViewController.swift in Sources */,
+				04FB10751F30679D00C4DAE8 /* PasswordRecoverViewController.swift in Sources */,
+				04D6F1D01F270FC800BCF97E /* LogInViewController.swift in Sources */,
 				04F02A361F29C04D008D0240 /* SignInViewController.swift in Sources */,
-				04FB10671F2B20DF00C4DAE8 /* Food.swift in Sources */,
+				04AEDCE41F30C2FE003FA2AA /* User.swift in Sources */,
+				04FB10731F2F478900C4DAE8 /* ImageVideoCollectionViewCell.swift in Sources */,
+				04FB10711F2EFF0900C4DAE8 /* UpoloadPicViewController.swift in Sources */,
 				04D6F1CE1F270FC800BCF97E /* AppDelegate.swift in Sources */,
 				04D6F1D61F270FC800BCF97E /* DanceApp.xcdatamodeld in Sources */,
+				04AEDD061F31D039003FA2AA /* KolodaViewController.swift in Sources */,
 				04D6F1E91F28586100BCF97E /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,10 +418,12 @@
 				CODE_SIGN_ENTITLEMENTS = DanceApp/DanceApp.entitlements;
 				DEVELOPMENT_TEAM = 4QKU98VAAA;
 				INFOPLIST_FILE = DanceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NazymBerdaliyeva.DanceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -421,10 +435,12 @@
 				CODE_SIGN_ENTITLEMENTS = DanceApp/DanceApp.entitlements;
 				DEVELOPMENT_TEAM = 4QKU98VAAA;
 				INFOPLIST_FILE = DanceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NazymBerdaliyeva.DanceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

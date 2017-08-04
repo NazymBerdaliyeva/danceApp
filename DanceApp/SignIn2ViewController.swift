@@ -31,6 +31,8 @@ class SignIn2ViewController: UIViewController,UIPickerViewDelegate, UIPickerView
             
             ves.append("\(i+30) кг")
         }
+        self.navigationController?.navigationBar.topItem?.title = "";
+        self.navigationController?.navigationBar.tintColor = UIColor.init(red: 0.9608, green: 0.3529, blue: 0.6196, alpha: 0.9)
     }
     
     @IBAction func createAccount(_ sender: Any) {

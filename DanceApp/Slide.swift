@@ -10,7 +10,7 @@ import UIKit
 
 class Slide: UIView {
 
-    @IBOutlet weak var label: UILabel!
+   @IBOutlet weak var label: UILabel!
 
       override func awakeFromNib() {
         super.awakeFromNib()

@@ -34,7 +34,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Koloda.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DanceApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftKeychainWrapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,12 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1B1BC1C1D0964142B99190214A18F7E2</key>
+		<key>118C89698A195975840ED25E541784F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20151774CE2F5FA6B8126D4F5ED1C5FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>44CAD6CE523055ED339E87154473A254</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BDD0E42347ED8EDEA19928B85B79254</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -73,6 +98,11 @@
 			<true/>
 		</dict>
 		<key>E396A93E4C79B22B7816E9F02F62ECED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F465227B79DFCEA16F4E473AC8077014</key>
 		<dict>
 			<key>primary</key>
 			<true/>

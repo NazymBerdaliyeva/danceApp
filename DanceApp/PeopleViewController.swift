@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import Firebase
+
 
 class PeopleViewController: UIViewController {
- var food = Food.loadData()
+    var food = Food.loadData()
+    var users = [User]()
     var clickedIndexPath: IndexPath?
     
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var layout: UICollectionViewFlowLayout!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView.dataSource = self
@@ -22,22 +26,47 @@ class PeopleViewController: UIViewController {
         let size = (self.view.frame.width - 2) / 2
         self.layout.itemSize = CGSize(width: size, height: 300)
         
+        fetchUser()
+        
+    }
+    
+    func fetchUser() {
+        
+        Database.database().reference().child("users").observeSingleEvent(of: .value, with: { (snapshot) in
+            if let dictionary = snapshot.value as? [String: Any] {
+                
+                for i in dictionary {
+                    let user = User()
+                    user.setValuesForKeys(i.value as! [String: Any])
+                    self.users.append(user)
+                }
+                print(self.users.count)
+                print(self.users)
+                DispatchQueue.main.async {
+                    self.collectionView.reloadData()
+                }
+            }
+        }) { (error) in
+            print(error)
+        }
+        
     }
     
 }
 extension PeopleViewController: UICollectionViewDataSource{
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return food.count
+        return users.count
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return food[section].count
+        return 4
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "reuseId", for: indexPath) as! ImageLabelCollectionViewCell
-        cell.imageView.image = food[indexPath.section][indexPath.item].image
-        cell.imageView.contentMode = .scaleAspectFill
-        cell.nameLabel.text = food[indexPath.section][indexPath.item].name
+        // cell.imageView.image = users[indexPath.item].image
+        let user = users[indexPath.item]
+       // cell.imageView.contentMode = .scaleAspectFill
+        cell.nameLabel.text = user.name
         
         
         return cell

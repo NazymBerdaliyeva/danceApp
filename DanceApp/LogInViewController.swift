@@ -14,7 +14,7 @@ import FirebaseAuth
 
 
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
+class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
     
   
     @IBOutlet weak var imageView: UIImageView!
@@ -28,27 +28,24 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         super.viewDidLoad()
         let loginButton = FBSDKLoginButton()
         self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.topItem?.title = "";
+        self.navigationController?.navigationBar.tintColor = UIColor.init(red: 0.9608, green: 0.3529, blue: 0.6196, alpha: 0.9)
+      
         self.imageView.image = #imageLiteral(resourceName: "logotype")
         self.appNameLabel.text = "Dancely"
-        view.addSubview(loginButton)
-        loginButton.frame = CGRect(x: 32, y: 459, width: view.frame.width - 45, height: 46)
+        
+        loginButton.frame = CGRect(x: 32, y: 466, width: view.frame.width - 64, height: 46)
+        loginButton.layer.cornerRadius = view.frame.width / 2
         signButton.layer.masksToBounds = true
-        signButton.backgroundColor =  .orange
+        signButton.backgroundColor =  UIColor.init(red: 0.9608, green: 0.3529, blue: 0.6196, alpha: 0.9)
         signButton.setTitle("Войти", for: .normal)
         signButton.setTitleColor(.white, for: .normal)
        signButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-//       signButton.addTarget(self, action: #selector(handledCustomFBLogin), for: .touchUpInside)
-        
+        view.addSubview(loginButton)
         loginButton.delegate = self
         loginButton.readPermissions = ["email", "public_profile"]
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        if Auth.auth().currentUser != nil {
-            //self.presentLoggedInScreen()
-             print("success")
-        }
-    }
+
     
     @IBAction func loginTapped(_ sender: Any) {
         if let email = emailTextField.text, let password = passwordTextField.text {
@@ -65,18 +62,6 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             })
         }
     }
-    @IBAction func forgotPasswordTapped(_ sender: Any) {
-    }
-    func handledCustomFBLogin() {
-        FBSDKLoginManager().logIn(withReadPermissions: ["email", "public_profile"], from: self)
-        { (result, err) in
-            if err != nil {
-                print("Custom FB login failed")
-                return
-            }
-            self.showEmailAddress()
-        }
-    }
     
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("Did log out of facebook")
@@ -88,7 +73,10 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             return
         }
         showEmailAddress()
+        self.presentLoggedInScreen()
         }
+    
+  
     
     func showEmailAddress(){
         let accessToken = FBSDKAccessToken.current()
@@ -100,6 +88,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
                 print(error.localizedDescription)
             }
             print("created")
+            
         })
 
         
@@ -118,8 +107,13 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     func presentLoggedInScreen() {
         print("present logged in screen")
         let storyBoard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let loggedInVC:PeopleViewController = storyBoard.instantiateViewController(withIdentifier: "PeopleViewController") as! PeopleViewController
+        let loggedInVC:KolodaViewController = storyBoard.instantiateViewController(withIdentifier: "KolodaViewController") as! KolodaViewController
         self.present(loggedInVC, animated: true, completion: nil)
     }
+    
+    @IBAction func unwind(sender: UIStoryboardSegue){
+        
+    }
+    
 }
 

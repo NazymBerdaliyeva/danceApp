@@ -10,8 +10,11 @@ target 'DanceApp' do
    pod 'Firebase/Core'
    pod 'Firebase/Database’
    pod 'Firebase/Auth’
+   pod 'FirebaseStorage'
    pod ‘FBSDKCoreKit’
    pod ‘FBSDKShareKit’
    pod ‘FBSDKLoginKit’
+   pod 'SwiftKeychainWrapper'
+   pod 'Koloda'
 
 end
